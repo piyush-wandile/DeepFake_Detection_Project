@@ -1,6 +1,14 @@
 # DeepFake_Detection_Project
 An ensemble model to detect DeepFakes in images and Videos
 
+[Python Notebook](./deepfake-detection-project.ipynb)
+
+[Project Presentation](./deepfake-detection-presentation.pdf)
+
+[Project Report](./deepfake-detection-report.pdf)
+
+[Draft Paper (IEEE format)](./DraftPaper_Hybrid%20RNN%20to%20Differentiate%20Deepfakes%20and%20Real%20Images%2C%20Videos.pdf)
+
 ## Why Detecting Deepfakes Is Essential?
 
 The rapid evolution of generative AI models—especially Generative Adversarial Networks (GANs)—has led to the creation of highly realistic synthetic media, commonly known as **deepfakes**. While this technology fuels innovation in entertainment, its malicious usage poses serious threats:
