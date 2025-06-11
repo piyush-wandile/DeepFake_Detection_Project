@@ -14,12 +14,12 @@ The rapid evolution of generative AI models—especially Generative Adversarial 
 
 ## Existing Tools & Detection Methods
 
-### 1. **DF Detect** (https://deepfake-detect.com/)
+### 1. **DF Detect** ([go to tool](https://deepfake-detect.com/))
 - Based on the EfficientNet architecture.
 - Primarily designed for classifying GAN/StyleGAN-generated images.
 - Achieves high accuracy (~96.36%) on benchmark datasets.
 
-### 2. **Deepware Scanner** (https://scanner.deepware.ai/)
+### 2. **Deepware Scanner** ([go to tool](https://scanner.deepware.ai/))
 - Web-based tool for real-time video analysis.
 - Offers frame-by-frame detection and probabilistic scores.
 - Supports short, high-resolution video inputs.
@@ -51,11 +51,11 @@ The methodology can be outlined as follows:
 ### 1. **Dataset Preparation**
 
 - **Training Datasets:**
-  - **Zenodo**: 95k real & 95k fake face images. ([https:/zenodo.org/records/5528418#.YpdlS2hBzDd])(https://www.eui.eu/Research/Library/ResearchGuides/Economics/Statistics/DataPortal/Zenodo)
-  - **FaceForensics++**: 1,000 real videos, 1.8M+ manipulated frames using 4 fake generation methods. (https://www.kaggle.com/datasets/hungle3401/faceforensics)
-  - **Celeb-DF**: 590 real & 5,639 fake videos from YouTube. (https://www.kaggle.com/datasets/nanduncs/1000-videos-split)
+  - **Zenodo**: 95k real & 95k fake face images. ([access dataset](https:/zenodo.org/records/5528418#.YpdlS2hBzDd))
+  - **FaceForensics++**: 1,000 real videos, 1.8M+ manipulated frames using 4 fake generation methods. ([access dataset](https://www.kaggle.com/datasets/hungle3401/faceforensics))
+  - **Celeb-DF**: 590 real & 5,639 fake videos from YouTube. ([access dataset](https://www.kaggle.com/datasets/nanduncs/1000-videos-split))
 - **Test Dataset (Unseen):**
-  - 140K real/fake faces from FFHQ and StyleGAN datasets. (https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces/data)
+  - 140K real/fake faces from FFHQ and StyleGAN datasets. ([access dataset](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces/data))
 
 > All datasets were preprocessed and balanced using stratified sampling.
 
@@ -64,7 +64,7 @@ The methodology can be outlined as follows:
 ### 2. **Model Training**
 
 Three models were trained individually:
-[The trained models can be accessed here](https://www.kaggle.com/models/piyushswandile/deepfake-detection-models)
+([access trained models](https://www.kaggle.com/models/piyushswandile/deepfake-detection-models))
 
 - **Model 1: Vision Transformer (ViT) on Zenodo Images**
   - Captures global visual inconsistencies.
